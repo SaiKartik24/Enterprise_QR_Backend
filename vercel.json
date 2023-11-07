@@ -1,0 +1,18 @@
+{
+    "version":2,
+    "builds":[
+    {
+    "src":"./QR_APIs.js",
+    "use":"@vercel/node"
+    
+    
+    }
+    ],
+    "routes":
+    [
+    {
+    "src":"/(.*)",
+    "dest":"/"
+    }
+    ]
+    }
